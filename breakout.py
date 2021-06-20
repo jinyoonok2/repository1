@@ -6,3 +6,5 @@ from stable_baselines3.common.vec_env import VecFrameStack
 from stable_baselines3.common.evaluation import evaluate_policy
 from stable_baselines3.common.env_util import make_atari_env
 import os
+
+!python -m atari_py.import_roms .\ROMS\ROMS
